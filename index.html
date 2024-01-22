@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>cadastro</title>
+</head>
+<body>
+    
+    <div class="div-centralizada">
+        <h1 class="shadow">Cadastro cliente</h1>
+
+            <div class="div-centro" >
+                <div>
+                    <input type="text" id="txtName" placeholder="Nome Cliente">
+                </div>
+                <div>
+                    <input type="text" id="txtIdade" placeholder="Idade Cliente">
+                </div>
+                <div>
+                    <input type="text" id="txtEmail" placeholder="Email cliente">
+                </div>
+                <!-- Adicione um botão ou ícone para revelar a senha -->
+                <div style="position: relative;">
+                    <input type="password" id="senha" placeholder="Senha">
+                    <i class="bi bi-eye-fill" id="btnSenha" onclick="mostrarSenha()"></i>
+                </div>
+
+                <br>
+                <div>
+                    <button class="button">
+                        Salvar
+                    </button>
+                </div>
+            </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
